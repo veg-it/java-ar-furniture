@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="276dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hello_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical"
+                    tools:layout_marginLeft="10dp">
+
+                    <androidx.constraintlayout.widget.Group
+                        android:id="@+id/group3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:constraint_referenced_ids="textView10,textView5" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView"
+                        android:textColor="#303030"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Рады видеть тебя снова!"
+                        android:textColor="#303030"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="#303030"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/main_header"
+                    android:layout_width="174dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/main_header" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buy_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="515dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/main_buy" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/buy_head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:baselineAligned="false"
+                        android:text="Совершать покупки"
+                        android:textColor="#303030"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/buy_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:baselineAligned="false"
+                        android:text="Перейти к списку доступных товаров"
+                        android:textColor="#303030"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/buy"
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/main_butt"
+                        android:baselineAligned="false" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/setting_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="689dp">
+
+                <LinearLayout
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    tools:layout_margin="10dp">
+
+
+                    <TextView
+                        android:id="@+id/setting_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Настроить профиль"
+                        android:textColor="#303030"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/setting_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Перейти к информации и настройкам, вашего аккаунта"
+                        android:textColor="#303030"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/settings"
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/main_butt" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="158dp"
+                    android:layout_height="172dp"
+                    app:srcCompat="@drawable/main_setting" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/upload_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="167dp"
+                tools:layout_editor_absoluteY="383dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="156dp"
+                    android:layout_height="156dp"
+                    app:srcCompat="@drawable/main_upload" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    tools:layout_margin="10dp">
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Загрузить свою работу"
+                        android:textColor="#303030"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Загрузить собственный макет или опубликовать заявку"
+                        android:textColor="#303030"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/upload"
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/main_butt" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/logout_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp">
+
+                <Button
+                    android:id="@+id/logout"
+                    android:layout_width="111dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/logout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

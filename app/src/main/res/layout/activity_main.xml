@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_below="@+id/imageView"></androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/scroll"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/login_header" />
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+
+<!--        tools:layout_editor_absoluteY="294dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:scaleType="fitXY"-->
+<!--            app:srcCompat="@drawable/login_header" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal|center_vertical"-->
+<!--            android:layout_marginTop="68dp"-->
+<!--            android:text="РЕГИСТРАЦИЯ И ВХОД"-->
+<!--            android:textColor="#585858"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="376dp"-->
+<!--            android:layout_height="34dp"-->
+<!--            android:layout_gravity="center_horizontal|center_vertical"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:text="Для продолжения авторизируйтесь при помощи Google"-->
+<!--            android:textColor="#585858"-->
+<!--            android:textSize="14sp" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/google_signIn"-->
+<!--            android:layout_width="234dp"-->
+<!--            android:layout_height="57dp"-->
+<!--            android:layout_gravity="center_horizontal|center_vertical"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/google_signin_s"-->
+<!--            android:drawableTop="@drawable/google_signin"-->
+<!--            android:drawableTint="#00FFFFFF"-->
+<!--            android:drawingCacheQuality="auto"-->
+<!--            android:text="SignIn"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal|center_vertical"-->
+<!--            android:fontFamily="sans-serif-medium"-->
+<!--            android:text="AR Furniture"-->
+<!--            android:textColor="#585858"-->
+<!--            android:textSize="14sp" />-->
+
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>

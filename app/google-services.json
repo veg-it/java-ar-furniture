@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "236294161358",
+    "project_id": "arfurniture-a5068",
+    "storage_bucket": "arfurniture-a5068.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236294161358:android:4edac98cb610d4ea99619f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236294161358-uvdkn9e7ud2j7dnakokph8l67ha6hfvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM0ZKvXpk6SMe9tBhozPXZGNnvuWq0nY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236294161358-uvdkn9e7ud2j7dnakokph8l67ha6hfvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236294161358:android:cc198303c0731f5499619f",
+        "android_client_info": {
+          "package_name": "com.notcreativestudio.arfurniture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236294161358-uvdkn9e7ud2j7dnakokph8l67ha6hfvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM0ZKvXpk6SMe9tBhozPXZGNnvuWq0nY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236294161358-uvdkn9e7ud2j7dnakokph8l67ha6hfvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

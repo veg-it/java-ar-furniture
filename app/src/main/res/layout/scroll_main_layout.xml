@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slideLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loginHead"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="96dp"
+        android:gravity="center"
+        android:text="Вход для клиентов"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginHead"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="86dp"
+        android:gravity="center"
+        android:text="Для того чтобы купить продукт или заказать чертеж, авторизируйтесь используя свой гугл аккаунт"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/google_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/loginText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/google_signin_s"
+        android:drawableTop="@drawable/google_signin"
+        android:drawableTint="#00FFFFFF"
+        android:drawingCacheQuality="auto"
+        android:text="SignIn" />
+
+</RelativeLayout>
